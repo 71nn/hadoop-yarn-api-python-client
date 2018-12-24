@@ -69,3 +69,4 @@ JobStateInternal = (
     (ERROR, ERROR),
     (REBOOT, REBOOT),
 )
+
