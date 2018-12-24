@@ -32,19 +32,19 @@ From PyPI
 
 ::
 
-    pip install yarn-api-client
+    pip install yarn-api-client-kenny
 
 From Anaconda (conda forge)
 
 ::
 
-    conda install -c conda-forge yarn-api-client
+    conda install -c conda-forge yarn-api-client-kenny
 
 From source code
 
 ::
 
-   git clone https://github.com/toidi/hadoop-yarn-api-python-client.git
+   git clone https://github.com/71nn/hadoop-yarn-api-python-client
    pushd hadoop-yarn-api-python-client
    python setup.py install
    popd
@@ -71,10 +71,12 @@ Programmatic interface
 
 .. code-block:: python
 
-   from yarn_api_client import ApplicationMaster, HistoryServer, NodeManager, ResourceManager
+   from yarn_api_client import ApplicationMaster, HistoryServer, NodeManager, ResourceManager, TimelineServer
 
 Changelog
 =========
+0.3.2 Release
+   - Add support for TimelineServer
 
 0.3.1 Release
    - Fix cluster_application_kill API

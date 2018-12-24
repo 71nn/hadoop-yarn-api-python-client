@@ -39,10 +39,10 @@ setup(
     tests_require = ['mock'],
     test_suite = 'tests',
 
-    author = 'Iskandarov Eduard',
-    author_email = 'e.iskandarov@corp.mail.ru',
+    author = 'Kenny Liu',
+    author_email = 'liuzihao1@wps.cn',
     license = 'BSD',
-    url = 'https://github.com/toidi/hadoop-yarn-api-python-client',
+    url = 'https://github.com/71nn/hadoop-yarn-api-python-client',
     classifiers = [
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
