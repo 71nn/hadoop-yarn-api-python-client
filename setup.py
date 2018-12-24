@@ -20,7 +20,7 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 setup(
-    name = 'yarn-api-client',
+    name = 'yarn-api-client-kenny',
     version = find_version('yarn_api_client', '__init__.py'),
     description='Python client for Hadoop® YARN API',
     long_description=read('README.rst'),
